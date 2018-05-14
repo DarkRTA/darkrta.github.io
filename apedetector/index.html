@@ -31,7 +31,6 @@
 			<p>Training Data:</p>
 			<input type="file" style="display: none" onchange='importBtn(event)' id="fRead">
 			<button type="button" onclick="resetBtn()">Reset</button>
-			<button type="button" onclick="saveBtn()">Save</button>
 			<button type="button" onclick='document.getElementById("fRead").click()'>Import</button>
 			<button type="button" onclick="exportBtn()">Export</button>
 		</div>
@@ -45,7 +44,7 @@
 			<p>You will need to get some training data. You can get the official training data from <a href="trainingdata.json" download="trainingdata.json">here</a>, or you can train it yourself. If you chose to download training data, you can use the import button to import it.</p>
 			<p>Once you have your training data imported (or you have finished training it yourself), paste anything into the text box and press the detect button. It will tell you if whoever sent that message is an ape.</a>
 		  <h3>How do I train it myself?</h3>
-			<p>You simply use the mark buttons. Pressing one of them will train the filter to detect similar messages as either from an ape or not an ape in the future. (be careful to only mark each message once tho, and do not forget to save)</p>
+			<p>You simply use the mark buttons. Pressing one of them will train the filter to detect similar messages as either from an ape or not an ape in the future. (be careful to only mark each message once tho)</p>
 			<p>Note that the mark buttons are also useful for incorrectly classified messages (or ones that could not be determined), as you can teach the filter to correctly classify messages like that in the future.</p>
 			<p>If you want to export your training data, press the export button (duh)</p>
 			<p>Protip: Including the username of whoever sent the message in the text box makes it more accurate.</p>

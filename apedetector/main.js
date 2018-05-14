@@ -7,12 +7,14 @@ function detectBtn() {
 function apeBtn() {
 	var msg = document.getElementById("msgBox").value;
 	bayes.train(msg, "ape");
+	save();
 	document.getElementById("resultBox").value =  "marked as ape"
 }
 
 function notapeBtn() {
 	var msg = document.getElementById("msgBox").value;
 	bayes.train(msg, "not an ape");
+	save();
 	document.getElementById("resultBox").value =  "marked as not an ape";
 }
 
@@ -20,7 +22,7 @@ function resetBtn() {
 	bayes.fromJSON(JSON.parse('{"cats":{},"words":{}}'));
 }
 
-function saveBtn() {
+function save() {
 	var json = JSON.stringify(bayes.toJSON());
 	localStorage.setItem("training", json); 
 }
