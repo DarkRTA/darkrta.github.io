@@ -36,6 +36,7 @@ function importBtn(event) {
 			var json = JSON.parse(reader.result);
       bayes.fromJSON(json);
 			document.getElementById("resultBox").value =  "training data imported";
+			save();
 		}
 		catch(err) {
 			document.getElementById("resultBox").value =  "error reading training data";
