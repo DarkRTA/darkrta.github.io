@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Meme List</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		<!--
+			* {
+				font-family: sans-serif;
+			}
+
+			.memetable {
+				font-size: 13px;
+			}
+			.meme {
+				min-width: 10px;
+				max-width: 330px;
+				word-wrap: break-word;
+			}
+
+			@media screen and (min-width: 450px) {
+				.memetable {
+					font-size: 15px;
+				}
+				.meme {
+					min-width: 10px;
+					max-width: 380px;
+				}
+			}
+
+		-->
+		</style>
+	</head>
+	<body>
+		<script src="emotes.js"></script>
+		<h1>Automatic Updating !meme list</h1>
+		<p>Written by <a href="https://twitch.tv/theessenceofdarkness">Dark</a></p>
+		<table border="1" class="memetable" id="memetable">
+			<tr>
+				<td>ID</td>
+				<td>Text</td>
+			</tr>
+
+		</table>
+		<script language="javascript" type="text/javascript">
+			<!--
+				fetch("https://cors-anywhere.herokuapp.com/http://twitch.center/customapi/quote/list?token=fe339299&no_id=1").then(function(response) {
+					return response.text().then(function(text) {
+						var memes = text.split("\n");
+						var table = document.getElementById("memetable")
+						for (var i=0; i<memes.length; i++) {
+							var row = table.insertRow(i + 1);
+							row.insertCell(0).innerHTML = (i + 1);
+							var memecell = row.insertCell(1);
+							memecell.innerHTML = memes[i];
+							memecell.className = "meme";
+						}
+					});
+				});
+			-->
+		</script>
+
+	</body>
+</html>
