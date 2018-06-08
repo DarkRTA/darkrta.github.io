@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+# Custom Bingo Card Generator for bingosync.com
+# Usage:
+# ./cardgen <file.txt>
+#
+# The text file must contain at least 25 different goals, one on each line.
+# A json string that can be used on bingosync.com will be written to stdout.
+echo -n [
+for i in {1..$2}
+do
+	read -r LINE
+    echo -n "\"$LINE\""
+	if [ $i != "$2" ]; then
+	    echo ','
+	fi
+done < $1 
+echo ]
