@@ -33,30 +33,42 @@
 	</head>
 	<body>
 		<script src="emotes.js"></script>
-		<h1>Automatic Updating !meme list</h1>
-		<p>Written by <a href="https://twitch.tv/theessenceofdarkness">Dark</a></p>
+		<script src="lz-string.min.js"></script>
+		<h1>real things that were said in <a href="https://twitch.tv/shift">SHiFT</a>'s chat</h1>
+		<p>courtesy of <a href="https://twitch.tv/theessenceofdarkness">Dark</a></p>
+		<p>fuck twitch btw</p>
+		<p>Due to caching, the list only updates on your local machine every hour.</p>
 		<table border="1" class="memetable" id="memetable">
 			<tr>
 				<td>ID</td>
 				<td>Text</td>
 			</tr>
-
 		</table>
 		<script language="javascript" type="text/javascript">
 			<!--
-				fetch("https://cors-anywhere.herokuapp.com/http://twitch.center/customapi/quote/list?token=fe339299&no_id=1").then(function(response) {
-					return response.text().then(function(text) {
-						var memes = text.split("\n");
-						var table = document.getElementById("memetable")
-						for (var i=0; i<memes.length; i++) {
-							var row = table.insertRow(i + 1);
-							row.insertCell(0).innerHTML = (i + 1);
-							var memecell = row.insertCell(1);
-							memecell.innerHTML = memes[i];
-							memecell.className = "meme";
-						}
+				if (localStorage.timeStamp === undefined) localStorage.timeStamp = "0"
+				if ((Date.now() - parseInt(localStorage.timeStamp)) > 3600000) {
+					fetch("https://cors-anywhere.herokuapp.com/http://twitch.center/customapi/quote/list?token=fe339299&no_id=1").then(function(response) {
+						return response.text().then(function(text) {
+							var memes = text.split("\n");
+							var table = document.getElementById("memetable")
+							document.body.removeChild(table)
+							for (var i=0; i<memes.length; i++) {
+								var row = table.insertRow(i + 1);
+								row.insertCell(0).innerHTML = (i + 1);
+								var memecell = row.insertCell(1);
+								memecell.innerHTML = memes[i];
+								memecell.className = "meme";
+							}
+							document.body.appendChild(table)
+							localStorage.cache = LZString.compressToUTF16(table.innerHTML);
+							localStorage.timeStamp = Date.now()
+						});
 					});
-				});
+				} else {
+					var table = document.getElementById("memetable");
+					table.innerHTML = LZString.decompressFromUTF16(localStorage.cache);
+				}
 			-->
 		</script>
 
