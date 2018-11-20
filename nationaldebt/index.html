@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>US National Debt</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#000000" />
+		<style>
+		<!--
+		body {
+			font-family: sans-serif;
+			background-color: #000;
+			color: #fff;
+		}
+
+		-->
+		</style>
+	</head>
+	<body>
+		<p class="debtTitle">US National Debt</p>
+		<p class="debtAmount">$<span id="debt"></span></p>
+
+
+		<script language="javascript" type="text/javascript">
+			<!--
+			function parseDebt(result) {
+				var last = result.entries.length - 1;
+				var startDate = Date.parse(result.entries[last].effectiveDate);
+				var startDebt = result.entries[last].totalDebt;
+				var endDate = Date.parse(result.entries[0].effectiveDate);
+				var endDebt = result.entries[0].totalDebt;
+
+				debtRate = (endDebt - startDebt) / (endDate - startDate);
+				debtAmount = endDebt;
+				debtTime = endDate;
+				setInterval(updateDebt, 1000 / 20);
+			}
+			function updateDebt() {
+					var r = new Date,
+					elapsedTime = r.getTime() - debtTime,
+					currentDebt = debtAmount + elapsedTime * debtRate;
+					
+				document.getElementById("debt").innerText = currentDebt.toLocaleString('en-US', {maximumFractionDigits: 0});
+			}
+			var url = 'https://www.treasurydirect.gov/NP_WS/debt/search?startdate=' + 
+				(new Date(Date.now()- 6.048e8 * 1)).toISOString().split("T")[0] + 
+				'&enddate=' + 
+				(new Date(Date.now())).toISOString().split("T")[0] + 
+				'&format=jsonp&callback=parseDebt';
+
+			var script = document.createElement('script');
+			script.type = 'text/javascript';
+			script.src = url;
+			document.body.appendChild(script);
+			-->
+		</script>
+
+	</body>
+</html>
