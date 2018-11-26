@@ -1,13 +1,13 @@
 Hi, there is not much here at the moment.
 
 <hr>
+### My Projects
 
-Where I am on various websites:
+[UserBadges](/userbadges) - Addon for FrankerFaceZ that allows one to assign badges to other people locally.
+
+### Where I am on various websites:
 
 Twitch [https://twitch.tv/theessenceofdarkness](https://twitch.tv/theessenceofdarkness)
-
-Reddit [https://reddit.com/u/xxvaatixx](https://reddit.com/u/xxvaatixx)
-
 
 Github: [https://github.com/theessenceofdarkness](https://github.com/theessenceofdarkness) (Do I need to link this?)
 
