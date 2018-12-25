@@ -86,11 +86,6 @@
       "id": 1330459
     },
     {
-      "code": "shiftLUL",
-      "emoticon_set": 19394,
-      "id": 1330463
-    },
-    {
       "code": "shiftOW",
       "emoticon_set": 19394,
       "id": 1330468
@@ -109,11 +104,6 @@
       "code": "shiftDrinksWater",
       "emoticon_set": 19394,
       "id": 1399135
-    },
-    {
-      "code": "shiftGasm",
-      "emoticon_set": 19394,
-      "id": 1402424
     },
     {
       "code": "shiftHead",
@@ -176,9 +166,19 @@
       "id": 1706010
     },
     {
-      "code": "shiftMOVIE",
+      "code": "shiftBruh",
       "emoticon_set": 19394,
-      "id": 1716130
+      "id": 1740016
+    },
+    {
+      "code": "shiftAckshully",
+      "emoticon_set": 19394,
+      "id": 1742926
+    },
+    {
+      "code": "shiftLUL",
+      "emoticon_set": 19394,
+      "id": 1743109
     },
     {
       "code": "shiftDAB",
@@ -192,6 +192,6 @@
     }
   ],
   "base_set_id": "19394",
-  "generated_at": "2018-12-18T12:45:20Z"
+  "generated_at": "2018-12-25T09:30:14Z"
 }
 }
