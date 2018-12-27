@@ -86,11 +86,6 @@
       "id": 1330459
     },
     {
-      "code": "shiftOW",
-      "emoticon_set": 19394,
-      "id": 1330468
-    },
-    {
       "code": "shiftPray",
       "emoticon_set": 19394,
       "id": 1330472
@@ -141,11 +136,6 @@
       "id": 1511363
     },
     {
-      "code": "shiftHo",
-      "emoticon_set": 19394,
-      "id": 1556852
-    },
-    {
       "code": "shiftMoist",
       "emoticon_set": 19394,
       "id": 1614110
@@ -181,6 +171,16 @@
       "id": 1743109
     },
     {
+      "code": "shiftSus",
+      "emoticon_set": 19394,
+      "id": 1792427
+    },
+    {
+      "code": "shiftUnga",
+      "emoticon_set": 19394,
+      "id": 1798272
+    },
+    {
       "code": "shiftDAB",
       "emoticon_set": 28590,
       "id": 420758
@@ -192,6 +192,6 @@
     }
   ],
   "base_set_id": "19394",
-  "generated_at": "2018-12-25T09:30:14Z"
+  "generated_at": "2019-01-11T13:15:39Z"
 }
 }
