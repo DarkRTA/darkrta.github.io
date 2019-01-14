@@ -13,3 +13,8 @@ Github: [https://github.com/theessenceofdarkness](https://github.com/theessenceo
 
 Twitter: [https://twitter.com/PureD4rkness](https://twitter.com/PureD4rkness) (My normal username is too long)
 
+### IRC
+
+You can chat with me on IRC at #thedarkness on irc.volatile.bz/6697 (SSL)
+
+I also run my own server on the network as well. You will have to ask me for it.

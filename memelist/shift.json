@@ -66,11 +66,6 @@
       "id": 424589
     },
     {
-      "code": "shiftH",
-      "emoticon_set": 19394,
-      "id": 668583
-    },
-    {
       "code": "shiftStare",
       "emoticon_set": 19394,
       "id": 1090114
@@ -89,11 +84,6 @@
       "code": "shiftPray",
       "emoticon_set": 19394,
       "id": 1330472
-    },
-    {
-      "code": "shiftTimbs",
-      "emoticon_set": 19394,
-      "id": 1330473
     },
     {
       "code": "shiftDrinksWater",
@@ -121,11 +111,6 @@
       "id": 1418347
     },
     {
-      "code": "shiftThink",
-      "emoticon_set": 19394,
-      "id": 1422622
-    },
-    {
       "code": "shiftGG",
       "emoticon_set": 19394,
       "id": 1444116
@@ -151,19 +136,9 @@
       "id": 1705453
     },
     {
-      "code": "shiftReads",
-      "emoticon_set": 19394,
-      "id": 1706010
-    },
-    {
       "code": "shiftBruh",
       "emoticon_set": 19394,
       "id": 1740016
-    },
-    {
-      "code": "shiftAckshully",
-      "emoticon_set": 19394,
-      "id": 1742926
     },
     {
       "code": "shiftLUL",
@@ -181,6 +156,31 @@
       "id": 1798272
     },
     {
+      "code": "shiftBAZONGO",
+      "emoticon_set": 19394,
+      "id": 1829075
+    },
+    {
+      "code": "shiftHouse",
+      "emoticon_set": 19394,
+      "id": 1851043
+    },
+    {
+      "code": "shiftHappy",
+      "emoticon_set": 19394,
+      "id": 1864450
+    },
+    {
+      "code": "shiftDiscount",
+      "emoticon_set": 19394,
+      "id": 1864462
+    },
+    {
+      "code": "shiftRave",
+      "emoticon_set": 19394,
+      "id": 1868225
+    },
+    {
       "code": "shiftDAB",
       "emoticon_set": 28590,
       "id": 420758
@@ -192,6 +192,6 @@
     }
   ],
   "base_set_id": "19394",
-  "generated_at": "2019-01-11T13:15:39Z"
+  "generated_at": "2019-01-26T00:30:44Z"
 }
 }
