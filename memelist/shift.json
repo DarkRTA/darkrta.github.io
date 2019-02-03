@@ -121,11 +121,6 @@
       "id": 1511363
     },
     {
-      "code": "shiftMoist",
-      "emoticon_set": 19394,
-      "id": 1614110
-    },
-    {
       "code": "shiftDegen",
       "emoticon_set": 19394,
       "id": 1640166
@@ -181,6 +176,11 @@
       "id": 1868225
     },
     {
+      "code": "shiftB",
+      "emoticon_set": 19394,
+      "id": 1899213
+    },
+    {
       "code": "shiftDAB",
       "emoticon_set": 28590,
       "id": 420758
@@ -192,6 +192,6 @@
     }
   ],
   "base_set_id": "19394",
-  "generated_at": "2019-01-26T00:30:44Z"
+  "generated_at": "2019-02-03T19:01:08Z"
 }
 }
