@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <title>μTTV - No Stream Loaded</title>
+        <meta charset="utf-8">
+        <style>
+            <!--
+            html {
+                width: 100%;
+                height: 100%;
+            }
+
+            body {
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                font-family: sans-serif;
+            }
+
+
+            iframe {
+                height: 100%;
+                float: left;
+                display: inline-block;
+                border: none;
+            }
+
+            #chat {
+                width: 340px;
+            }
+
+            #player {
+                flex-grow: 1;
+            }
+            -->
+        </style>
+    </head>
+    <body>
+        <iframe id="player" allowfullscreen="true"></iframe> 
+        <iframe id="chat"></iframe>
+
+        <script>
+            let chat = document.getElementById("chat");
+            let player = document.getElementById("player");
+            if (location.hash == "") {
+                location.hash = prompt("Username of streamer","user");
+            }
+            if (location.hash != "") {
+                let channel = location.hash.substr(1);
+                chat.src = `https://twitch.tv/embed/${channel}/chat?darkpopout`;
+                player.src = `https://player.twitch.tv/?channel=${channel}`;
+                document.title = `μTTV - ${channel}`
+            } else { 
+                chat.style = "display: none";
+                player.style = "display: none";
+                document.write("No stream specified");
+            }
+        </script>
+    </body>
+</html>

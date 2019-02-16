@@ -5,6 +5,8 @@ Hi, there is not much here at the moment.
 
 [UserBadges](/userbadges) - Addon for FrankerFaceZ that allows one to assign badges to other people locally.
 
+[muTTV](/muTTV.html) - A lightweight client for twitch that avoids the bloat of the website by directly embedding the chat and the player.
+
 ### Where I am on various websites:
 
 Twitch [https://twitch.tv/theessenceofdarkness](https://twitch.tv/theessenceofdarkness)

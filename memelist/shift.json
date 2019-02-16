@@ -16,11 +16,6 @@
       "id": 120667
     },
     {
-      "code": "shiftWhoa",
-      "emoticon_set": 19394,
-      "id": 145598
-    },
-    {
       "code": "shiftHey",
       "emoticon_set": 19394,
       "id": 154656
@@ -176,9 +171,14 @@
       "id": 1868225
     },
     {
-      "code": "shiftB",
+      "code": "shiftYike",
       "emoticon_set": 19394,
-      "id": 1899213
+      "id": 1919960
+    },
+    {
+      "code": "shiftWhoa",
+      "emoticon_set": 19394,
+      "id": 1921580
     },
     {
       "code": "shiftDAB",
@@ -192,6 +192,6 @@
     }
   ],
   "base_set_id": "19394",
-  "generated_at": "2019-02-03T19:01:08Z"
+  "generated_at": "2019-02-16T00:20:38Z"
 }
 }
