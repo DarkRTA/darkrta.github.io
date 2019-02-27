@@ -136,11 +136,6 @@
       "id": 1743109
     },
     {
-      "code": "shiftSus",
-      "emoticon_set": 19394,
-      "id": 1792427
-    },
-    {
       "code": "shiftUnga",
       "emoticon_set": 19394,
       "id": 1798272
@@ -156,11 +151,6 @@
       "id": 1851043
     },
     {
-      "code": "shiftHappy",
-      "emoticon_set": 19394,
-      "id": 1864450
-    },
-    {
       "code": "shiftDiscount",
       "emoticon_set": 19394,
       "id": 1864462
@@ -171,14 +161,24 @@
       "id": 1868225
     },
     {
-      "code": "shiftYike",
-      "emoticon_set": 19394,
-      "id": 1919960
-    },
-    {
       "code": "shiftWhoa",
       "emoticon_set": 19394,
       "id": 1921580
+    },
+    {
+      "code": "shiftBait",
+      "emoticon_set": 19394,
+      "id": 1999155
+    },
+    {
+      "code": "shiftChum",
+      "emoticon_set": 19394,
+      "id": 2000832
+    },
+    {
+      "code": "shiftSmug",
+      "emoticon_set": 19394,
+      "id": 2009379
     },
     {
       "code": "shiftDAB",
@@ -192,6 +192,6 @@
     }
   ],
   "base_set_id": "19394",
-  "generated_at": "2019-02-16T00:20:38Z"
+  "generated_at": "2019-02-27T20:20:59Z"
 }
 }
