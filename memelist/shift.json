@@ -71,11 +71,6 @@
       "id": 1182563
     },
     {
-      "code": "shiftGoo",
-      "emoticon_set": 19394,
-      "id": 1330459
-    },
-    {
       "code": "shiftPray",
       "emoticon_set": 19394,
       "id": 1330472
@@ -121,11 +116,6 @@
       "id": 1640166
     },
     {
-      "code": "shiftHUH",
-      "emoticon_set": 19394,
-      "id": 1705453
-    },
-    {
       "code": "shiftBruh",
       "emoticon_set": 19394,
       "id": 1740016
@@ -136,29 +126,9 @@
       "id": 1743109
     },
     {
-      "code": "shiftUnga",
-      "emoticon_set": 19394,
-      "id": 1798272
-    },
-    {
       "code": "shiftBAZONGO",
       "emoticon_set": 19394,
       "id": 1829075
-    },
-    {
-      "code": "shiftHouse",
-      "emoticon_set": 19394,
-      "id": 1851043
-    },
-    {
-      "code": "shiftDiscount",
-      "emoticon_set": 19394,
-      "id": 1864462
-    },
-    {
-      "code": "shiftRave",
-      "emoticon_set": 19394,
-      "id": 1868225
     },
     {
       "code": "shiftWhoa",
@@ -181,6 +151,36 @@
       "id": 2009379
     },
     {
+      "code": "shiftAdvice",
+      "emoticon_set": 19394,
+      "id": 2029750
+    },
+    {
+      "code": "shiftBusted",
+      "emoticon_set": 19394,
+      "id": 2029765
+    },
+    {
+      "code": "shiftTimbs",
+      "emoticon_set": 19394,
+      "id": 2029806
+    },
+    {
+      "code": "shiftClench",
+      "emoticon_set": 19394,
+      "id": 2029866
+    },
+    {
+      "code": "shiftDisappoint",
+      "emoticon_set": 19394,
+      "id": 2029901
+    },
+    {
+      "code": "shiftGoo",
+      "emoticon_set": 19394,
+      "id": 2030353
+    },
+    {
       "code": "shiftDAB",
       "emoticon_set": 28590,
       "id": 420758
@@ -192,6 +192,6 @@
     }
   ],
   "base_set_id": "19394",
-  "generated_at": "2019-02-27T20:20:59Z"
+  "generated_at": "2019-02-28T16:20:16Z"
 }
 }
