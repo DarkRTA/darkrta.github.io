@@ -171,14 +171,19 @@
       "id": 2029866
     },
     {
-      "code": "shiftDisappoint",
-      "emoticon_set": 19394,
-      "id": 2029901
-    },
-    {
       "code": "shiftGoo",
       "emoticon_set": 19394,
       "id": 2030353
+    },
+    {
+      "code": "shiftRoast",
+      "emoticon_set": 19394,
+      "id": 2146976
+    },
+    {
+      "code": "shiftBeter",
+      "emoticon_set": 19394,
+      "id": 300064954
     },
     {
       "code": "shiftDAB",
@@ -192,6 +197,6 @@
     }
   ],
   "base_set_id": "19394",
-  "generated_at": "2019-02-28T16:20:16Z"
+  "generated_at": "2019-04-02T13:21:08Z"
 }
 }
