@@ -40,7 +40,7 @@
 		<script src="lz-string.min.js"></script>
 		<h1>real things that were said in <a href="https://twitch.tv/shift">SHiFT</a>'s chat</h1>
 		<p>courtesy of <a href="https://twitch.tv/theessenceofdarkness">Dark</a></p>
-		<p>now with new dark theme pog</p>
+		<p>now with 70% less cpu usage</p>
 		<table border="1" class="memetable" id="memetable">
 			<tr>
 				<td>ID</td>
@@ -55,16 +55,22 @@
 						return response.text().then(function(text) {
 							var memes = text.split("\n");
 							var table = document.getElementById("memetable")
-							document.body.removeChild(table)
+							var html = `
+							<tr>
+								<td>ID</td>
+								<td class="meme">Text</td>
+							</tr>
+							`
 							for (var i=0; i<memes.length; i++) {
-								var row = table.insertRow(i + 1);
-								row.insertCell(0).innerHTML = (i + 1);
-								var memecell = row.insertCell(1);
-								memecell.innerHTML = memes[i];
-								memecell.className = "meme";
+								html += `
+								<tr>
+									<td>${i + 1}</td>
+									<td class="meme">${memes[i]}</td>
+								</tr>
+								`
 							}
-							document.body.appendChild(table)
-							localStorage.cache = LZString.compressToUTF16(table.innerHTML);
+							table.innerHTML = html;
+							localStorage.cache = LZString.compressToUTF16(html);
 							localStorage.timeStamp = Date.now()
 						});
 					});
