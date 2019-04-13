@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Meme List</title>
@@ -36,8 +37,6 @@
 		</style>
 	</head>
 	<body>
-		<script src="emotes.js"></script>
-		<script src="lz-string.min.js"></script>
 		<h1>real things that were said in <a href="https://twitch.tv/shift">SHiFT</a>'s chat</h1>
 		<p>courtesy of <a href="https://twitch.tv/theessenceofdarkness">Dark</a></p>
 		<p>now with 70% less cpu usage</p>
@@ -47,27 +46,24 @@
 				<td>Text</td>
 			</tr>
 		</table>
+		<script src="lz-string.min.js"></script>
 		<script language="javascript" type="text/javascript">
 			<!--
 				if (localStorage.timeStamp === undefined) localStorage.timeStamp = "0"
 				if ((Date.now() - parseInt(localStorage.timeStamp)) > 3600000) {
-					fetch("https://cors-anywhere.herokuapp.com/http://twitch.center/customapi/quote/list?token=fe339299&no_id=1").then(function(response) {
+					fetch("https://dark.volatile.bz/memebot/238116049554243584").then(function(response) {
 						return response.text().then(function(text) {
 							var memes = text.split("\n");
+							memes.pop();
 							var table = document.getElementById("memetable")
-							var html = `
-							<tr>
-								<td>ID</td>
-								<td class="meme">Text</td>
-							</tr>
-							`
-							for (var i=0; i<memes.length; i++) {
-								html += `
-								<tr>
-									<td>${i + 1}</td>
-									<td class="meme">${memes[i]}</td>
-								</tr>
-								`
+							var html = `<tr><td>ID</td><td class="meme">Text</td></tr>`
+							for (let line of memes) {
+								let arr = line.split(" ");
+								let id = arr.shift();
+								let time = arr.shift();
+								let text = arr.join(" ");
+
+								html += `<tr><td>${id}</td><td class="meme">${text}</td></tr>`
 							}
 							table.innerHTML = html;
 							localStorage.cache = LZString.compressToUTF16(html);
@@ -80,6 +76,6 @@
 				}
 			-->
 		</script>
-
+		<script src="emotes.js"></script>
 	</body>
 </html>
