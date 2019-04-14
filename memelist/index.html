@@ -8,29 +8,48 @@
 		<link rel="shortcut icon" type="image/png" href="favicon.png" />
 		<style>
 		<!--
-			* {
+			body {
 				font-family: sans-serif;
-				background-color: #212121;
+				background-color: #111;
 				color: #fff;
 			}
 
-			.memetable {
-				font-size: 13px;
-			}
-			.meme {
-				min-width: 10px;
-				max-width: 330px;
-				word-wrap: break-word;
+			a {
+				color: #aaf;
 			}
 
-			@media screen and (min-width: 450px) {
-				.memetable {
-					font-size: 15px;
-				}
-				.meme {
-					min-width: 10px;
-					max-width: 380px;
-				}
+			.emote {
+				display: inline;
+				margin: -.5em 0px;
+				vertical-align: middle;
+				height: auto;
+				width: calc((1em / 12px) * 100%);
+				background-size: cover;
+			}
+			.table {
+				font-size: 12px;
+				border: 1px solid #777;
+				border-collapse: collapse;
+			}
+			.id {
+				text-align: right;
+				border-right: 1px solid #777;
+				padding-right: 0.4em;
+			}
+			.text {
+				min-width: 10px;
+				max-width: calc((1em * 340/12) - (1em * 20/12));
+				word-wrap: break-word;
+				line-height: calc(1em * 20/12);
+				margin: 0px;
+				padding: calc(1em * 5/12) calc(1em * 10/12);
+			}
+
+			tr:nth-child(even) {
+				background: #111111;
+			}
+			tr:nth-child(odd) {
+				background: #272727;
 			}
 
 		-->
@@ -38,44 +57,14 @@
 	</head>
 	<body>
 		<h1>real things that were said in <a href="https://twitch.tv/shift">SHiFT</a>'s chat</h1>
+		<p>memebot2 edition</p>
 		<p>courtesy of <a href="https://twitch.tv/theessenceofdarkness">Dark</a></p>
-		<p>now with 70% less cpu usage</p>
-		<table border="1" class="memetable" id="memetable">
+		<table class="table" id="table">
 			<tr>
-				<td>ID</td>
-				<td>Text</td>
-			</tr>
+				<td>Loading...</td>
+			<tr>
 		</table>
 		<script src="lz-string.min.js"></script>
-		<script language="javascript" type="text/javascript">
-			<!--
-				if (localStorage.timeStamp === undefined) localStorage.timeStamp = "0"
-				if ((Date.now() - parseInt(localStorage.timeStamp)) > 3600000) {
-					fetch("https://dark.volatile.bz/memebot/238116049554243584").then(function(response) {
-						return response.text().then(function(text) {
-							var memes = text.split("\n");
-							memes.pop();
-							var table = document.getElementById("memetable")
-							var html = `<tr><td>ID</td><td class="meme">Text</td></tr>`
-							for (let line of memes) {
-								let arr = line.split(" ");
-								let id = arr.shift();
-								let time = arr.shift();
-								let text = arr.join(" ");
-
-								html += `<tr><td>${id}</td><td class="meme">${text}</td></tr>`
-							}
-							table.innerHTML = html;
-							localStorage.cache = LZString.compressToUTF16(html);
-							localStorage.timeStamp = Date.now()
-						});
-					});
-				} else {
-					var table = document.getElementById("memetable");
-					table.innerHTML = LZString.decompressFromUTF16(localStorage.cache);
-				}
-			-->
-		</script>
-		<script src="emotes.js"></script>
+		<script src="table.js"></script>
 	</body>
 </html>
