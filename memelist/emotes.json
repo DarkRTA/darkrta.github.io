@@ -935,16 +935,6 @@
   "id": 530890
 },
 {
-  "code": "HappyJack",
-  "emoticon_set": 0,
-  "id": 551865
-},
-{
-  "code": "AngryJack",
-  "emoticon_set": 0,
-  "id": 551866
-},
-{
   "code": "PurpleStar",
   "emoticon_set": 0,
   "id": 624501
@@ -1255,19 +1245,9 @@
   "id": 1640166
 },
 {
-  "code": "shiftBruh",
-  "emoticon_set": 19394,
-  "id": 1740016
-},
-{
   "code": "shiftLUL",
   "emoticon_set": 19394,
   "id": 1743109
-},
-{
-  "code": "shiftBAZONGO",
-  "emoticon_set": 19394,
-  "id": 1829075
 },
 {
   "code": "shiftWhoa",
@@ -1295,19 +1275,9 @@
   "id": 2029750
 },
 {
-  "code": "shiftBusted",
-  "emoticon_set": 19394,
-  "id": 2029765
-},
-{
   "code": "shiftTimbs",
   "emoticon_set": 19394,
   "id": 2029806
-},
-{
-  "code": "shiftClench",
-  "emoticon_set": 19394,
-  "id": 2029866
 },
 {
   "code": "shiftGoo",
@@ -1315,14 +1285,34 @@
   "id": 2030353
 },
 {
-  "code": "shiftRoast",
-  "emoticon_set": 19394,
-  "id": 2146976
-},
-{
   "code": "shiftBeter",
   "emoticon_set": 19394,
   "id": 300064954
+},
+{
+  "code": "shift10",
+  "emoticon_set": 19394,
+  "id": 300144803
+},
+{
+  "code": "shiftEbic",
+  "emoticon_set": 19394,
+  "id": 300144829
+},
+{
+  "code": "shiftPOG",
+  "emoticon_set": 19394,
+  "id": 300145046
+},
+{
+  "code": "shiftBAZONGO",
+  "emoticon_set": 19394,
+  "id": 300145059
+},
+{
+  "code": "shiftFun",
+  "emoticon_set": 19394,
+  "id": 300145070
 },
 {
   "code": "shiftDAB",
