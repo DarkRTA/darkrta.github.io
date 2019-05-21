@@ -1245,11 +1245,6 @@
   "id": 1640166
 },
 {
-  "code": "shiftLUL",
-  "emoticon_set": 19394,
-  "id": 1743109
-},
-{
   "code": "shiftWhoa",
   "emoticon_set": 19394,
   "id": 1921580
@@ -1295,11 +1290,6 @@
   "id": 300144803
 },
 {
-  "code": "shiftEbic",
-  "emoticon_set": 19394,
-  "id": 300144829
-},
-{
   "code": "shiftPOG",
   "emoticon_set": 19394,
   "id": 300145046
@@ -1313,6 +1303,16 @@
   "code": "shiftFun",
   "emoticon_set": 19394,
   "id": 300145070
+},
+{
+  "code": "shiftYikes",
+  "emoticon_set": 19394,
+  "id": 300293109
+},
+{
+  "code": "shiftF",
+  "emoticon_set": 19394,
+  "id": 300299209
 },
 {
   "code": "shiftDAB",
