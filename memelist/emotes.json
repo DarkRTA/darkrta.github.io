@@ -1070,16 +1070,6 @@
   "id": 1441289
 },
 {
-  "code": "PeteZaroll",
-  "emoticon_set": 0,
-  "id": 1470035
-},
-{
-  "code": "PeteZarollOdyssey",
-  "emoticon_set": 0,
-  "id": 1470037
-},
-{
   "code": "PixelBob",
   "emoticon_set": 0,
   "id": 1547903
@@ -1240,11 +1230,6 @@
   "id": 1511363
 },
 {
-  "code": "shiftDegen",
-  "emoticon_set": 19394,
-  "id": 1640166
-},
-{
   "code": "shiftWhoa",
   "emoticon_set": 19394,
   "id": 1921580
@@ -1258,11 +1243,6 @@
   "code": "shiftChum",
   "emoticon_set": 19394,
   "id": 2000832
-},
-{
-  "code": "shiftSmug",
-  "emoticon_set": 19394,
-  "id": 2009379
 },
 {
   "code": "shiftAdvice",
@@ -1295,11 +1275,6 @@
   "id": 300145046
 },
 {
-  "code": "shiftBAZONGO",
-  "emoticon_set": 19394,
-  "id": 300145059
-},
-{
   "code": "shiftFun",
   "emoticon_set": 19394,
   "id": 300145070
@@ -1313,6 +1288,21 @@
   "code": "shiftF",
   "emoticon_set": 19394,
   "id": 300299209
+},
+{
+  "code": "shiftBoomer",
+  "emoticon_set": 19394,
+  "id": 300337501
+},
+{
+  "code": "shiftS",
+  "emoticon_set": 19394,
+  "id": 300377828
+},
+{
+  "code": "shiftH",
+  "emoticon_set": 19394,
+  "id": 300377832
 },
 {
   "code": "shiftDAB",
