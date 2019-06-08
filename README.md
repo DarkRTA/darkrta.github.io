@@ -3,7 +3,7 @@ Hi, there is not much here at the moment.
 <hr>
 ### My Projects
 
-[UserBadges](/userbadges) - Addon for FrankerFaceZ that allows one to assign badges to other people locally.
+[Local Badges](/LocalBadges) - Addon for FrankerFaceZ that allows one to assign badges to other people locally.
 
 [muTTV](/muTTV.html) - A lightweight client for twitch that avoids the bloat of the website by directly embedding the chat and the player.
 
