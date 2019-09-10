@@ -1130,6 +1130,11 @@
   "id": 300116350
 },
 {
+  "code": "PorscheWIN",
+  "emoticon_set": 0,
+  "id": 300745158
+},
+{
   "code": "shiftDab",
   "emoticon_set": 19394,
   "id": 120667
@@ -1180,11 +1185,6 @@
   "id": 1090114
 },
 {
-  "code": "shiftGetIn",
-  "emoticon_set": 19394,
-  "id": 1182563
-},
-{
   "code": "shiftPray",
   "emoticon_set": 19394,
   "id": 1330472
@@ -1195,19 +1195,9 @@
   "id": 1399135
 },
 {
-  "code": "shiftHead",
-  "emoticon_set": 19394,
-  "id": 1409774
-},
-{
   "code": "shiftEpicGamer",
   "emoticon_set": 19394,
   "id": 1413384
-},
-{
-  "code": "shiftBlast",
-  "emoticon_set": 19394,
-  "id": 1413915
 },
 {
   "code": "shiftMonka",
@@ -1230,16 +1220,6 @@
   "id": 1921580
 },
 {
-  "code": "shiftBait",
-  "emoticon_set": 19394,
-  "id": 1999155
-},
-{
-  "code": "shiftAdvice",
-  "emoticon_set": 19394,
-  "id": 2029750
-},
-{
   "code": "shiftTimbs",
   "emoticon_set": 19394,
   "id": 2029806
@@ -1255,16 +1235,6 @@
   "id": 300064954
 },
 {
-  "code": "shiftPOG",
-  "emoticon_set": 19394,
-  "id": 300145046
-},
-{
-  "code": "shiftFun",
-  "emoticon_set": 19394,
-  "id": 300145070
-},
-{
   "code": "shiftYikes",
   "emoticon_set": 19394,
   "id": 300293109
@@ -1278,11 +1248,6 @@
   "code": "shiftBoomer",
   "emoticon_set": 19394,
   "id": 300337501
-},
-{
-  "code": "shiftS",
-  "emoticon_set": 19394,
-  "id": 300377828
 },
 {
   "code": "shiftSalute",
@@ -1303,6 +1268,46 @@
   "code": "shiftBruh",
   "emoticon_set": 19394,
   "id": 300484669
+},
+{
+  "code": "shiftOOP",
+  "emoticon_set": 19394,
+  "id": 300554777
+},
+{
+  "code": "shiftSniff",
+  "emoticon_set": 19394,
+  "id": 300554830
+},
+{
+  "code": "shiftYeh",
+  "emoticon_set": 19394,
+  "id": 300554874
+},
+{
+  "code": "shiftT",
+  "emoticon_set": 19394,
+  "id": 300601959
+},
+{
+  "code": "shiftDiapey",
+  "emoticon_set": 19394,
+  "id": 300606775
+},
+{
+  "code": "shiftOats",
+  "emoticon_set": 19394,
+  "id": 300669991
+},
+{
+  "code": "shiftFun",
+  "emoticon_set": 19394,
+  "id": 300706107
+},
+{
+  "code": "shiftHD",
+  "emoticon_set": 19394,
+  "id": 300713417
 },
 {
   "code": "shiftDAB",
