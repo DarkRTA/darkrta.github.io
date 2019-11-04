@@ -1135,6 +1135,11 @@
   "id": 300745158
 },
 {
+  "code": "PartyPoro",
+  "emoticon_set": 0,
+  "id": 300949540
+},
+{
   "code": "shiftDab",
   "emoticon_set": 19394,
   "id": 120667
@@ -1173,11 +1178,6 @@
   "code": "shiftGoodMood",
   "emoticon_set": 19394,
   "id": 420712
-},
-{
-  "code": "shiftLove",
-  "emoticon_set": 19394,
-  "id": 424589
 },
 {
   "code": "shiftStare",
@@ -1235,16 +1235,6 @@
   "id": 300064954
 },
 {
-  "code": "shiftYikes",
-  "emoticon_set": 19394,
-  "id": 300293109
-},
-{
-  "code": "shiftF",
-  "emoticon_set": 19394,
-  "id": 300299209
-},
-{
   "code": "shiftBoomer",
   "emoticon_set": 19394,
   "id": 300337501
@@ -1285,29 +1275,104 @@
   "id": 300554874
 },
 {
-  "code": "shiftT",
-  "emoticon_set": 19394,
-  "id": 300601959
-},
-{
   "code": "shiftDiapey",
   "emoticon_set": 19394,
   "id": 300606775
 },
 {
-  "code": "shiftOats",
+  "code": "shiftChonky",
   "emoticon_set": 19394,
-  "id": 300669991
+  "id": 300798614
 },
 {
-  "code": "shiftFun",
+  "code": "shiftDisappoint",
   "emoticon_set": 19394,
-  "id": 300706107
+  "id": 300798743
 },
 {
-  "code": "shiftHD",
+  "code": "shiftClench",
   "emoticon_set": 19394,
-  "id": 300713417
+  "id": 300803760
+},
+{
+  "code": "shiftPega",
+  "emoticon_set": 19394,
+  "id": 300812536
+},
+{
+  "code": "shiftUnsee",
+  "emoticon_set": 19394,
+  "id": 300820777
+},
+{
+  "code": "shiftSaved",
+  "emoticon_set": 19394,
+  "id": 300825219
+},
+{
+  "code": "shiftSans",
+  "emoticon_set": 19394,
+  "id": 300828576
+},
+{
+  "code": "shiftThink",
+  "emoticon_set": 19394,
+  "id": 300830584
+},
+{
+  "code": "shiftOut",
+  "emoticon_set": 19394,
+  "id": 300864730
+},
+{
+  "code": "shiftRIP",
+  "emoticon_set": 19394,
+  "id": 300865943
+},
+{
+  "code": "shift1",
+  "emoticon_set": 19394,
+  "id": 300868782
+},
+{
+  "code": "shift2",
+  "emoticon_set": 19394,
+  "id": 300876515
+},
+{
+  "code": "shift3",
+  "emoticon_set": 19394,
+  "id": 300877097
+},
+{
+  "code": "shift4",
+  "emoticon_set": 19394,
+  "id": 300880018
+},
+{
+  "code": "shiftLove",
+  "emoticon_set": 19394,
+  "id": 300882953
+},
+{
+  "code": "shiftMini",
+  "emoticon_set": 19394,
+  "id": 300889499
+},
+{
+  "code": "shiftT",
+  "emoticon_set": 19394,
+  "id": 300955107
+},
+{
+  "code": "shiftHo",
+  "emoticon_set": 19394,
+  "id": 301033748
+},
+{
+  "code": "shiftSociety",
+  "emoticon_set": 19394,
+  "id": 301037064
 },
 {
   "code": "shiftDAB",
