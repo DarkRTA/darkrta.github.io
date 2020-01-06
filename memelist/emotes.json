@@ -1135,11 +1135,6 @@
   "id": 300745158
 },
 {
-  "code": "PartyPoro",
-  "emoticon_set": 0,
-  "id": 300949540
-},
-{
   "code": "shiftDab",
   "emoticon_set": 19394,
   "id": 120667
@@ -1305,11 +1300,6 @@
   "id": 300820777
 },
 {
-  "code": "shiftSaved",
-  "emoticon_set": 19394,
-  "id": 300825219
-},
-{
   "code": "shiftSans",
   "emoticon_set": 19394,
   "id": 300828576
@@ -1355,24 +1345,29 @@
   "id": 300882953
 },
 {
-  "code": "shiftMini",
-  "emoticon_set": 19394,
-  "id": 300889499
-},
-{
   "code": "shiftT",
   "emoticon_set": 19394,
   "id": 300955107
 },
 {
-  "code": "shiftHo",
-  "emoticon_set": 19394,
-  "id": 301033748
-},
-{
   "code": "shiftSociety",
   "emoticon_set": 19394,
   "id": 301037064
+},
+{
+  "code": "shiftSlide",
+  "emoticon_set": 19394,
+  "id": 301112875
+},
+{
+  "code": "shiftVibe",
+  "emoticon_set": 19394,
+  "id": 301207993
+},
+{
+  "code": "shiftFun",
+  "emoticon_set": 19394,
+  "id": 301278613
 },
 {
   "code": "shiftDAB",
