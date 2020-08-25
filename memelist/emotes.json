@@ -765,11 +765,6 @@
   "id": 145315
 },
 {
-  "code": "BlessRNG",
-  "emoticon_set": 0,
-  "id": 153556
-},
-{
   "code": "MorphinTime",
   "emoticon_set": 0,
   "id": 156787
@@ -1135,19 +1130,29 @@
   "id": 301696583
 },
 {
-  "code": "VALJett",
-  "emoticon_set": 0,
-  "id": 302349683
-},
-{
-  "code": "VALPhoenix",
-  "emoticon_set": 0,
-  "id": 302349698
-},
-{
   "code": "ExtraLife",
   "emoticon_set": 0,
   "id": 302426269
+},
+{
+  "code": "FootBall",
+  "emoticon_set": 0,
+  "id": 302628600
+},
+{
+  "code": "FootYellow",
+  "emoticon_set": 0,
+  "id": 302628613
+},
+{
+  "code": "FootGoal",
+  "emoticon_set": 0,
+  "id": 302628617
+},
+{
+  "code": "CTC",
+  "emoticon_set": 0,
+  "id": 302955885
 },
 {
   "code": "shiftDab",
@@ -1305,11 +1310,6 @@
   "id": 301449974
 },
 {
-  "code": "shiftBusted",
-  "emoticon_set": 19394,
-  "id": 301453291
-},
-{
   "code": "shiftG",
   "emoticon_set": 19394,
   "id": 301453378
@@ -1355,11 +1355,6 @@
   "id": 301483309
 },
 {
-  "code": "shiftAdvice",
-  "emoticon_set": 19394,
-  "id": 301540765
-},
-{
   "code": "shiftBiggieCheeseEmote",
   "emoticon_set": 19394,
   "id": 301561444
@@ -1385,12 +1380,62 @@
   "id": 301761308
 },
 {
+  "code": "shiftWow",
+  "emoticon_set": 19394,
+  "id": 302553030
+},
+{
+  "code": "shiftCozy",
+  "emoticon_set": 19394,
+  "id": 303386336
+},
+{
   "code": "shiftDAB",
   "emoticon_set": 28590,
   "id": 420758
 },
 {
+  "code": "shiftHead",
+  "emoticon_set": 28590,
+  "id": 302599879
+},
+{
+  "code": "shiftSniff",
+  "emoticon_set": 28590,
+  "id": 302599894
+},
+{
+  "code": "shiftSmug",
+  "emoticon_set": 28590,
+  "id": 302599906
+},
+{
+  "code": "shiftH",
+  "emoticon_set": 28590,
+  "id": 302599930
+},
+{
   "code": "shiftBETER",
   "emoticon_set": 28591,
   "id": 301453277
+},
+{
+  "code": "shiftHouse",
+  "emoticon_set": 28591,
+  "id": 302599881
+},
+{
+  "code": "shiftPOG",
+  "emoticon_set": 28591,
+  "id": 302599912
+},
+{
+  "code": "shiftTimbs",
+  "emoticon_set": 28591,
+  "id": 302599921
+},
+{
+  "code": "shiftGreatMood",
+  "emoticon_set": 28591,
+  "id": 302599939
 }]
