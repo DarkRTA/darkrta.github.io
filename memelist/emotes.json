@@ -175,11 +175,6 @@
   "id": 66
 },
 {
-  "code": "HassanChop",
-  "emoticon_set": 0,
-  "id": 68
-},
-{
   "code": "BloodTrail",
   "emoticon_set": 0,
   "id": 69
@@ -1150,9 +1145,34 @@
   "id": 302628617
 },
 {
-  "code": "CTC",
+  "code": "ShowOfHands",
   "emoticon_set": 0,
-  "id": 302955885
+  "id": 303564554
+},
+{
+  "code": "GlitchCat",
+  "emoticon_set": 0,
+  "id": 304486301
+},
+{
+  "code": "StinkyGlitch",
+  "emoticon_set": 0,
+  "id": 304486324
+},
+{
+  "code": "GlitchLit",
+  "emoticon_set": 0,
+  "id": 304489128
+},
+{
+  "code": "GlitchNRG",
+  "emoticon_set": 0,
+  "id": 304489309
+},
+{
+  "code": "Awwdible",
+  "emoticon_set": 0,
+  "id": 304845766
 },
 {
   "code": "shiftDab",
@@ -1230,11 +1250,6 @@
   "id": 300402891
 },
 {
-  "code": "shiftWack",
-  "emoticon_set": 19394,
-  "id": 300479145
-},
-{
   "code": "shiftOOP",
   "emoticon_set": 19394,
   "id": 300554777
@@ -1248,16 +1263,6 @@
   "code": "shiftDisappoint",
   "emoticon_set": 19394,
   "id": 300798743
-},
-{
-  "code": "shiftSans",
-  "emoticon_set": 19394,
-  "id": 300828576
-},
-{
-  "code": "shiftOut",
-  "emoticon_set": 19394,
-  "id": 300864730
 },
 {
   "code": "shiftRIP",
@@ -1303,11 +1308,6 @@
   "code": "shift4",
   "emoticon_set": 19394,
   "id": 301449633
-},
-{
-  "code": "shiftGenius",
-  "emoticon_set": 19394,
-  "id": 301449974
 },
 {
   "code": "shiftG",
@@ -1370,11 +1370,6 @@
   "id": 301761295
 },
 {
-  "code": "shiftThink",
-  "emoticon_set": 19394,
-  "id": 301761302
-},
-{
   "code": "shiftPog",
   "emoticon_set": 19394,
   "id": 301761308
@@ -1388,6 +1383,31 @@
   "code": "shiftCozy",
   "emoticon_set": 19394,
   "id": 303386336
+},
+{
+  "code": "shiftChat",
+  "emoticon_set": 19394,
+  "id": 303487992
+},
+{
+  "code": "shiftHo",
+  "emoticon_set": 19394,
+  "id": 304291568
+},
+{
+  "code": "shiftCat",
+  "emoticon_set": 19394,
+  "id": 304336582
+},
+{
+  "code": "shiftChad",
+  "emoticon_set": 19394,
+  "id": 304843488
+},
+{
+  "code": "shiftDidWHAT",
+  "emoticon_set": 19394,
+  "id": 304950722
 },
 {
   "code": "shiftDAB",
