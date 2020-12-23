@@ -5,7 +5,7 @@ timestamp = isNaN(timestamp) ? 0 : timestamp;
 
 let tablehtml = `<tr><td class="id">ID</td><td class="text">Text</td></tr>`
 if ((Date.now() - timestamp) > 3600000) {
-	let response = await fetch("https://dark.volatile.bz/memebot/238116049554243584");
+	let response = await fetch("https://dark.ski/memebot/238116049554243584");
 
 	let text = document.createElement("div");
 	text.innerText = await response.text();
