@@ -17,7 +17,7 @@ if ((Date.now() - timestamp) > 3600000) {
 		let arr = line.split(" ");
 		let id = arr.shift();
 		let time = arr.shift();
-		let text = arr.join(" ");
+		let text = arr.join(" ").replace("\\n", "\n");
 
 		tablehtml += `<tr><td class="id">${id}</td><td class="text">${text}</td></tr>`
 	}
@@ -30,6 +30,7 @@ if ((Date.now() - timestamp) > 3600000) {
 }
 
 
+/*
 let response = await fetch("emotes.json");
 let emotes   = await response.json();
 let replace  = "(?<=[\\ \\>])(?:"
@@ -61,6 +62,7 @@ tablehtml = tablehtml.replace(replace, (match) => {
 	}
 	return `<img class="emote" src="//static-cdn.jtvnw.net/emoticons/v1/${id}/1.0" alt="${match}" />`
 });
+*/
 
 document.getElementById("table").innerHTML = tablehtml;
 
